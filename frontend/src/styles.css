@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Dispor os botões verticalmente */
+    align-items: center; /* Centralizar os botões horizontalmente */
+  }
+  
+  .content button {
+    margin: 10px;
+  }
